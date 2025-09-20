@@ -276,7 +276,6 @@ img.overly-top {
 .fixed-nav ul li {
 	width: 20%;
 }
-
 .fixed-nav ul li a:hover i {
 	top: -2px;
 }
@@ -497,6 +496,7 @@ section.hero-area .heroSwiper {
 	justify-content: space-evenly;
 	color: #dcb035;
 	font-weight: 600;
+	flex-wrap: wrap;
 }
 /*============ Area End =============*/
 
@@ -569,16 +569,18 @@ a.swiper-slide.not-hover:hover {
 
 .ctg-nav {
 	margin: 15px 0 30px;
+	overflow: scroll;
 }
 
 .ctg-nav ul {
 	display: flex;
 	align-items: center;
-	gap: 12px;
+	gap: 3%;
 }
 
 .ctg-nav ul li {
-	width: 20%;
+	width: 80px;
+	flex-shrink: 0;
 }
 
 .ctg-nav ul li a {
@@ -592,6 +594,7 @@ a.swiper-slide.not-hover:hover {
 	font-size: 15px;
 	color: #dcb035;
 	transition: all 0.3s;
+	
 }
 
 .ctg-nav ul li a:hover,
@@ -606,12 +609,7 @@ a.swiper-slide.not-hover:hover {
 	align-items: center;
 	justify-content: center;
 }
-.product-wrp {
-	/* width: 100%; */
-	/* max-width: 580px; */
-	/* top: 0; */
-	/* z-index: 99; */
-}
+
 .product__nav {
 	width: 100px;
 	top: 0;
@@ -733,6 +731,7 @@ a.swiper-slide.not-hover:hover {
 	display: flex;
 	gap: 12px;
 	flex-wrap: wrap;
+	width: max-content;
 }
 
 .record-grp-btn ul a {
@@ -757,6 +756,7 @@ a.swiper-slide.not-hover:hover {
 	padding: 16px 20px;
 	border-radius: 10px;
 	margin-bottom: 20px;
+	height: ;
 }
 
 .Refer-blk h6 {
