@@ -242,7 +242,6 @@ img.overly-top {
 	z-index: 99999;
 }
 
-
 .fixed-nav ul {
 	display: flex;
 	justify-content: space-around;
@@ -342,7 +341,6 @@ section.hero-area .heroSwiper {
 .container {
 	max-width: 590px;
 }
-
 
 .login-content {
 	text-align: center;
@@ -571,7 +569,9 @@ a.swiper-slide.not-hover:hover {
 	margin: 15px 0 30px;
 	overflow: scroll;
 }
-
+.ctg-nav::-webkit-scrollbar {
+	display: none;
+}
 .ctg-nav ul {
 	display: flex;
 	align-items: center;
@@ -594,14 +594,12 @@ a.swiper-slide.not-hover:hover {
 	font-size: 15px;
 	color: #dcb035;
 	transition: all 0.3s;
-	
 }
 
 .ctg-nav ul li a:hover,
 .pdNavSwiper .swiper-slide:hover {
 	background: #dcb03514;
 }
-
 
 .ctg-nav ul li a i {
 	height: 40px;
@@ -618,9 +616,9 @@ a.swiper-slide.not-hover:hover {
 	position: sticky;
 }
 .product__nav.is-sticky {
-  position: fixed;
-  top: 0;
-  z-index: 99;
+	position: fixed;
+	top: 0;
+	z-index: 99;
 }
 .product__content {
 	/* width: calc(100% - 100px); */
@@ -726,7 +724,6 @@ a.swiper-slide.not-hover:hover {
 
 /*============Refer Area Start =============*/
 
-
 .record-grp-btn ul {
 	display: flex;
 	gap: 12px;
@@ -756,7 +753,6 @@ a.swiper-slide.not-hover:hover {
 	padding: 16px 20px;
 	border-radius: 10px;
 	margin-bottom: 20px;
-	height: ;
 }
 
 .Refer-blk h6 {
@@ -847,8 +843,6 @@ a.swiper-slide.not-hover:hover {
 	border-radius: 10px;
 	margin-bottom: 12px;
 }
-
-
 
 .Report__list ul li a span {
 	display: block;

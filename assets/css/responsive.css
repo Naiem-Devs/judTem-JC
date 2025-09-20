@@ -38,4 +38,7 @@
 	.footer__content ul {
 		gap: 20px 10px;
 	}
+	.record-grp-btn::-webkit-scrollbar {
+		display: none;
+	}
 }
