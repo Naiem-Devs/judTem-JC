@@ -151,6 +151,13 @@ li {
 	padding: 20px 0;
 	z-index: 99;
 	min-width: 580px;
+	position: sticky;
+	transition: all .3s ease-in-out;
+	top: 0;
+}
+
+.header-area.sticky {
+    background: #101010;
 }
 
 .logo-area {
@@ -450,6 +457,7 @@ section.hero-area .heroSwiper {
 .footer-area {
 	padding-bottom: 190px;
 	position: relative;
+	background: #101010;
 }
 
 .fixed-nav:before,
@@ -563,7 +571,20 @@ a.swiper-slide.not-hover:hover {
 
 .product-area {
 	padding-bottom: 30px;
+	/* position: sticky; */
+	top: 100px;
+	transition: all .3s;
 }
+
+.pd-item-top {
+    position: sticky;
+    top: 84px;
+    z-index: 9;
+    background: #101010;
+    padding-top: 5px;
+}
+
+.login-btn {}
 
 .ctg-nav {
 	margin: 15px 0 30px;
@@ -610,7 +631,7 @@ a.swiper-slide.not-hover:hover {
 
 .product__nav {
 	width: 100px;
-	top: 0;
+	top: 260px;
 	transition: all 0.3s ease;
 	position: -webkit-sticky;
 	position: sticky;
@@ -621,7 +642,6 @@ a.swiper-slide.not-hover:hover {
 	z-index: 99;
 }
 .product__content {
-	/* width: calc(100% - 100px); */
 }
 .product__items {
 	margin-bottom: 20px;
@@ -1087,7 +1107,6 @@ a.swiper-slide.not-hover:hover {
 	border: none;
 	cursor: pointer;
 	justify-content: space-evenly;
-	background: #000;
 	color: transparent;
 	padding: 5px;
 	width: 60px;

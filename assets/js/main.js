@@ -1,3 +1,13 @@
+const header = document.getElementById("header");
+
+window.addEventListener("scroll", () => {
+	if (window.scrollY > 10) {
+		header.classList.add("sticky");
+	} else {
+		header.classList.remove("sticky");
+	}
+});
+
 const locales = ["en-GB", "ar-SA", "zh-CN", "de-DE", "es-ES", "fr-FR", "hi-IN", "it-IT", "in-ID", "ja-JP", "ko-KR", "nl-NL", "no-NO", "pl-PL", "pt-BR", "sv-SE", "fi-FI", "th-TH", "tr-TR", "uk-UA", "vi-VN", "ru-RU", "he-IL"];
 
 function getFlagSrc(countryCode) {
